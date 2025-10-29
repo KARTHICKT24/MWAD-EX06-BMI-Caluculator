@@ -50,10 +50,10 @@ function App() {
 
     setBmi(bmiValue.toFixed(1));
 
-    if (bmiValue < 18.5) setMessage("Underweight 😕");
-    else if (bmiValue < 24.9) setMessage("Normal weight 😊");
-    else if (bmiValue < 29.9) setMessage("Overweight 😐");
-    else setMessage("Obese 😟");
+    if (bmiValue < 18.5) setMessage("Underweight");
+    else if (bmiValue < 24.9) setMessage("Normal weight");
+    else if (bmiValue < 29.9) setMessage("Overweight");
+    else setMessage("Obese");
   };
 
   const resetForm = () => {
@@ -246,7 +246,7 @@ button {
 ```
 
 ## OUTPUT
-<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/61e4b4a4-7558-45d7-ade9-cb1e273d111d" />
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/a42e18de-1ce1-4581-a770-9cbfb6c6b637" />
 
 ## RESULT
 The program for creating BMI Calculator using React Router is executed successfully.
